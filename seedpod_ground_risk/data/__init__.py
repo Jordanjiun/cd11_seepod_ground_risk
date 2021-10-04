@@ -36,16 +36,6 @@ def relative_variation_filepath():
     return relative_variation_fp
 
 
-def geotiff_su_filepath():
-    geotiff_su_fp = os.sep.join(('static_data', 'SU.tif'))
-    return geotiff_su_fp
-
-
-def geotiff_test_filepath():
-    geotiff_test_fp = os.sep.join(('static_data', 'test.tif'))
-    return geotiff_test_fp
-
-
-def geotiff_combined_filepath():
-    geotiff_combined_fp = os.sep.join(('static_data', 'Combined.tif'))
-    return geotiff_combined_fp
+def census_2011_geotiff_filepath():
+    geotiff_fp = os.sep.join(('static_data', 'census_2011_geotiff'))
+    return geotiff_fp
